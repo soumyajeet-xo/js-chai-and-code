@@ -8,8 +8,8 @@ let valueInNumber = Number(score)
 //console.log(valueInNumber);
 
 
-// "33" => 33
-// "33abc" => NaN
+// "33" => 33  
+// "33abc" => NaN   **typeof NaN is number 
 //  true => 1; false => 0
 
 let isLoggedIn = "hitesh"
@@ -43,25 +43,27 @@ let negValue = -value
 let str1 = "hello"
 let str2 = " hitesh"
 
-let str3 = str1 + str2
+let str3 = str1 + str2 // called concatenation
 // console.log(str3);
 
-// console.log("1" + 2);
+// console.log("1" + 2); 
 // console.log(1 + "2");
 // console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log(1 + 2 + "2"); // output is 32
+// output is always concatenated... as string
+
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true); //output is 1
+// console.log(+"");  // output is 0
 
-let num1, num2, num3
+let num1, num2, num3 // bulk assignment
 
 num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
-++gameCounter;
+++gameCounter; //prefix
 console.log(gameCounter);
 
 // link to study
