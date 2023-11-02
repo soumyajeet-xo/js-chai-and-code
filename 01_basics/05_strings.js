@@ -25,11 +25,11 @@ console.log(anotherString);
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
 console.log(newStringOne.trim());
-
+// also trimStart() and trimEnd()
 const url = "https://hitesh.com/hitesh%20choudhary"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar')) //returns boolean
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-')); //delimiter
